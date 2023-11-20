@@ -66,13 +66,13 @@
                             <td>Rp.<?php echo number_format($row['product_price'])?></td>
                             <td><?php echo $row['product_description'] ?></td>
                             <td><img src="produk/<?php echo $row['product_image']?>" width="50px"></td>
-                            <td><?php echo ($row['product_status'] ==  1)? 'Aktif' : 'Tidak Aktif' ?>></td>
+                            <td><?php echo ($row['product_status'] ==  1)? 'Aktif' : 'Tidak Aktif' ?></td>
                             <td>
                                 <a href="edit-produk.php?id=<?php echo $row['product_id'] ?>">Edit</a> || <a href="proses-hapus.php?idp=<?php echo $row['product_id'] ?>" onclick="return confirm('Yakin ingin hapus?)">Hapus</a>
                             </td>
                         </tr>
                         <?php }} else{ ?>
-                            <tr><
+                            <tr>
                                 <td  colspan = "8">
                                     Tidak Ada Data
                                 </td>

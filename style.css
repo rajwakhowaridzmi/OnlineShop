@@ -182,10 +182,9 @@ footer {
   color: rgb(58, 58, 180);
 }
 .col-2 p {
-  background-color: aqua;
   margin: 15px 0;
   text-align: justify;
-  line-height: 25px;
+  line-height: 55px;
 }
 @media screen and (max-width: 768px) {
   .container {

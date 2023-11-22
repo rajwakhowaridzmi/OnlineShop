@@ -54,8 +54,8 @@ error_reporting(0);
                    <p>Deskripsi :<br>
                         <?php echo $p->product_description ?>
                     </p>
-                    <img src="img/whatsapp.png" width="60px">
                     <p>
+                        <img src="img/whatsapp.png" width="60px">
                     <a href="https://api.whatsapp.com/send?phone=<?php echo $a->admin_telp ?>&text=Hai, Saya Tertarik Dengan Produk Anda" target="_blank">
                     Hubungi Via WhatsApp
                 </p>

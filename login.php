@@ -23,7 +23,7 @@
                 include 'db.php';
 
                 $user = mysqli_real_escape_string($conn, $_POST['user']);
-                $pass = mysqli_real_escape_string($conn,$_POST['pass']);
+                $pass = mysqli_real_escape_string($conn,md5($_POST['pass']));
 
                 $cek = mysqli_query($conn, "SELECT * FROM tb_admin WHERE username = '".$user."' AND password = '".$pass."'");
 

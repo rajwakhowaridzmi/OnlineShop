@@ -22,7 +22,7 @@
     <!-- header -->
     <header>
         <div class="container">
-        <h1><a href="dashboard.php">King Of Chairs</a></h1>
+        <h1><a href="dashboard.php">King Of Furniture</a></h1>
         <ul>
             <li><a href="dashboard.php">Dashboard</a></li>
             <li><a href="profil.php">Profil</a></li>
@@ -87,7 +87,7 @@
     <!-- footer -->
     <footer>
         <div class="container">
-            <small>Copyrigt &copy; 2023 - King Of Chairs</small>
+            <small>Copyrigt &copy; 2023 - King Of Furniture</small>
         </div>
     </footer>
 </body>

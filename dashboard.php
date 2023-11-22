@@ -21,9 +21,9 @@
     <!-- header -->
     <header>
         <div class="container">
-        <h1><a href="dashboard.php">King Of Chairs</a></h1>
+        <h1><a href="dashboard.php">King Of Furniture</a></h1>
         <ul>
-            <li><a href="dashboard.php">Dashboard</a></li>
+            <li><a href="dashboard.php" class="active">Dashboard</a></li>
             <li><a href="profil.php">Profil</a></li>
             <li><a href="data-kategori.php">Data Kategori</a></li>
             <li><a href="data-produk.php">Data Produk</a></li>
@@ -37,7 +37,7 @@
         <div class="container">
             <h3>Dashboard</h3>
             <div class="box">
-                <h4>Selamat Datang <?php echo $_SESSION['a_global']->admin_name ?> Di King Of Chairs </h4>
+                <h4>Selamat Datang <?php echo $_SESSION['a_global']->admin_name ?> Di King Of Furniture </h4>
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
     <!-- footer -->
     <footer>
         <div class="container">
-            <small>Copyrigt &copy; 2023 - King Of Chairs</small>
+            <small>Copyrigt &copy; 2023 - King Of Furniture</small>
         </div>
     </footer>
 </body>
